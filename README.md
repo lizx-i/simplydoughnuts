@@ -1,4 +1,4 @@
-# simplydoughnuts
+# simplydoughnuts🍩
 
 <img src="https://github.com/lizx-i/simplydoughnuts/blob/main/SDcover.png">
 

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simply Doughnuts</title>
+    <link rel="stylesheet" href="plot.css/p.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <section class="flex">
+            <a href="#home" class="logo"><img src="img/logo1.png" alt="#"></a>
+                <nav class="navbar">
+                    <a href="#home">home</a>
+                    <a href="#about">about</a>
+                    <a href="#menu">menu</a>
+                    <a href="#gallery">gallery</a>
+                    <a href="#team">team</a>
+                    <a href="#contact">contact</a>
+                </nav>
+                <div id="menu-btn" class="fas fa-bars"></div>
+        </section>    
+    </header>
+    <div class="home-bg">
+        <section class="home" id="home">
+            <div class="content">
+                <h3>Simply Doughnuts</h3>
+                <p>Warm, Delicious & Made To Order From Us To You!</p>
+                <a href="#about" class="btn">about us</a>
+            </div>
+        </section>
+    </div>
+    <section class="about" id="about">
+        <div class="img">
+            <img src="./img/aboutus.png" alt="">
+        </div>
+        <div class="content">
+            <h3>We are the missng piece, come complete your day.</h3>
+                <p>Enjoy fresh made doughnuts. We have a variety of confectious treats.</p>
+                <a href="#menu" class="btn">our menu</a>
+        </div>
+    </section>
+    <section class="facility">
+        <div class="heading">
+            <img src="img/heading1.png" alt="">
+            <h3>our services</h3>
+        </div>
+        <div class="box">
+            <div class="box-container">
+                <img src="img/icon1soymilk.png" alt="">
+                <h3>Plant-Based Beverages</h3>
+                <p>We offer several plant-based drinks to accompy a warm doughnut.</p>
+            </div>
+            <div class="box-container">
+                <img src="img//icon2delivery.png" alt="">
+                <h3>Delivery</h3>
+                <p>We offer local delivery to meet our communities sweet tooth.</p>
+            </div>
+            <div class="box-container">
+                <img src="img/icon3freshlymadedaily.png" alt="">
+                <h3>Freshly Made Everyday</h3>
+                <p>We have an amazing team who bake and decorate the doughnuts daily.</p>
+            </div>
+            <div class="box-container">
+                <img src="img/icon4varietyofdough.png" alt="">
+                <h3>Variety Of Doughnuts</h3>
+                <p>You think of it we have it and if we don't, we'll make it for you. Enjoy our many flavors.</p>
+            </div>
+        </div>
+    </section>
+    <section class="menu" id="menu">
+        <div class="heading">
+            <img src="img/heading1.png" alt="">
+            <h3>Popular Menu</h3>
+        </div>
+        <div class="box-container">
+            <div class="box">
+                <img src="img/menu1.png" alt="">
+                <h3>Jelly Explosion</h3>
+            </div>
+            <div class="box">
+                <img src="img/menu2.png" alt="">
+                <h3>Birthday Cake</h3>
+            </div>
+            <div class="box">
+                <img src="img/menu3.png" alt="">
+                <h3>Wednesday Pink</h3>
+            </div>
+            <div class="box">
+                <img src="img/menu4.png" alt="">
+                <h3>Chocolate Suprise</h3>
+            </div>
+            <div class="box">
+                <img src="img/menu5.png" alt="">
+                <h3>Crawl Back</h3>
+            </div>
+            <div class="box">
+                <img src="img/menu6.png" alt="">
+                <h3>Cronut Dreams</h3>
+            </div>
+        </div>
+    </section>
+    <section class="gallery" id="gallery">
+        <div class="heading">
+            <img src="img/heading1.png" alt="">
+            <h3>Our Gallery</h3>
+        </div>
+        <div class="box-container">
+            <img src="img/gallery1.jpg" alt="">
+            <img src="img/gallery2.jpg" alt="">
+            <img src="img/gallery3.jpg" alt="">
+            <img src="img/gallery4.jpg" alt="">
+            <img src="img/gallery5.jpg" alt="">
+            <img src="img/gallery6.jpg" alt="">
+        </div>  
+    </section>
+    <section class="team" id="team">
+        <div class="heading">
+            <img src="img/heading1.png" alt="">
+            <h3>Our Team</h3>
+        <div class="box-container">
+            <div class="box">
+                <img src="img/ourteam1.jpg" alt="">
+                <h3>Jack Smith</h3>
+            </div>
+            <div class="box">
+                <img src="img/ourteam2.jpg" alt="">
+                <h3>Jane Doe</h3>
+            </div>
+            <div class="box">
+                <img src="img/ourteam3.jpg" alt="">
+                <h3>John Brown</h3>
+            </div>   
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="heading">
+            <img src="img/heading1.png" alt="">
+            <h3>Contact Us</h3>
+        </div>
+
+        <div class="row">
+            <div class="image">
+                <img src="./img/contactus.png" alt="">
+            </div>
+            <form action="" method="post">
+                <h3>Orders</h3>
+                <input type="text"name="name" required class="box" maxlength="40" placeholder="enter your name">
+                <input type="number"name="number" required class="box" maxlength="40" placeholder="enter your number" min="0" max="9999999999" onkeypress="if(this.value.length == 10) return false">
+                <input type="number"name="order" required class="box" maxlength="40" placeholder="how many orders(dozen)?" min="0" max="99" onkeypress="if(this.value.length == 2) return false">
+                <input type="submit" name="send" value="send message" class="btn">
+            </form>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="box-container">
+        <div class="box">
+            <i class="fas fa-envelope"></i>
+            <h3>Our Email</h3>
+            <p>simplydoughnuts@bakery.com</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-clock"></i>
+            <h3>Our Store Hours</h3>
+            <p>9am to 9pm est.</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>Our Location</h3>
+            <p>5555 Bakery Avenue</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-phone"></i>
+            <h3>Our Number</h3>
+            <p>(555)555-5555</p>
+        </div>
+        </div>
+        <div class="credit">&copy; 2022 <span>Elizabeth Iruafemi</span>| all rights reserved</div>
+    </section>
+
+    <script src="plot.js/p.js"></script>
+</body>
+</html>
